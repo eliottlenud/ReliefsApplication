@@ -1,0 +1,117 @@
+body {
+	margin: 0px 0px 0px 0px;
+}
+h1 {
+	text-align: center;
+	background: #B22222; 
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+ 	letter-spacing: 2px;
+ 	font-family: Arial ;
+ 	font-weight: bold;
+ 	margin : 0px 0px 10px 0px;
+}
+
+.content {
+   display: flex;
+   justify-content: space-between;
+}
+
+.History {
+  position: relative;
+  background-color: #E9C41F;
+  margin-top: 200px;
+  margin-right: 10px;
+}
+
+.bookmarks {
+	position: relative;
+  background-color: #1E90FF;
+  margin-top: 200px;	
+}
+
+.videoView {
+	position: relative;
+  text-align: center;
+  width: 840px;
+  margin-top: 50px;	
+  background-color: red;	
+}
+
+.searchBar {
+	position: relative;
+  text-align: center;
+}
+
+#history {
+  border-left: 6px solid #8B0000;
+  background-color: #B22222;
+  color: white;
+  padding-left: 10px;
+}
+
+input {
+  background-color: #DCDCDC;
+  border-style: solid;	
+  border-width: 3px; 
+  border-color: red;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;	
+  width: 70%;
+  height: 50px;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#watch {
+  border-style: solid;
+  background-color: #B22222;
+  border-width: 2px;
+  border-color: #8B0000;
+  padding: 5px 10px 5px 10px;
+  height: 40px;
+  width: 10%;
+  text-transform: uppercase; 
+  color: white;
+  font-size: 20px;
+  font-family: Lato ;
+  font-weight: bold;
+  letter-spacing: 2px;
+  vertical-align: center;
+}
+
+#watch:hover {
+  border-style: solid;
+  background-color: white;
+  border-width: 2px;
+  border-color: #8B0000;
+  padding: 5px 10px 5px 10px;
+  height: 40px;
+  width: 10%;
+  text-transform: uppercase; 
+  color: #B22222;
+  font-size: 20px;
+  font-family: Lato ;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#searchthis #search-btn {
+  background-color: #E8B960;   /* Couleur de fond */
+  border-style: solid;   /* Style de la bordure  */
+     /* Epaisseur de la bordure  */
+  border-color: #E8B960;   /* Couleur de la bordure  */
+  padding:    /* Espace entre les bords et le contenu : haut droite bas gauche  */
+  width: 98.5%;   /* Permet d'ajuster la largeur du bouton à 100% */
+  box-sizing: border-box;   /* Important */
+  font-family: PT sans;   /* Police du texte */
+  font-size: 25px;   /* Taille de la police du texte */
+  font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+  letter-spacing: 2px;   /* Espacement des caractères */
+  margin: 10px 0 0 0;   /* Espace autour du bouton : haut droite bas gauche  */
+  text-transform: uppercase;   /* Transforme le texte en majuscules */
+  color: #ffffff;   /* Couleur du texte */
+}

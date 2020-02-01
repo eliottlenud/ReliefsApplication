@@ -1,0 +1,60 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'PVP/style.css' %}">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Popcorn</title>
+</head>
+<body>
+
+<h1>POPCORN VIDEO PLAYER</h1>
+
+<searchBar > 
+	<div class="searchBar">
+	<form action="watch" method="POST">
+		{% csrf_token %}
+		<input type="text" name="link">
+		
+	<button id="watch" type="submit">Watch</button>
+	</form>
+	</div>
+</searchBar>
+<div class="content">
+
+
+<History >
+	<div class="History">
+	<h3 id="history">History</h3>
+	<ul>
+  		<li><a href="{{link}}">Dernière vidéo</a></li>
+  		<li>le jus d'un citron</li>
+	</ul>
+	</div>
+</History>
+
+
+<videoView >
+	<div class="videoView">
+		<iframe width="840" height="500" src="{{link}}" allowfullscreeen>
+</iframe>
+<button id="add">Add to bookmarks</button>
+	</div>
+
+</videoView>
+
+
+<Bookmarks >
+	<div class="bookmarks">
+	<h3>Bookmarks</h3>
+	<ul>
+  		<li>2 avocats (pelés et avec les noyaux retirés)</li>
+  		<li>le jus d'un citron</li>
+	</ul>
+	</div>
+</Bookmarks>
+</div>
+</body>
+</body>
+</html>
