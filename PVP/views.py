@@ -17,10 +17,10 @@ def app(request):
 			cod = "".join(rad + code)
 			print(cod)
 			context = {'link': cod}
-			return render(request,'PVP/app.html',context)
+			return render(request,'app.html',context)
 		else:
 			form = YTForm()
-	return render(request, 'PVP/app.html',{'form' : form})
+	return render(request, 'app.html',{'form' : form})
 
 
 

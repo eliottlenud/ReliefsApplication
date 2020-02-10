@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'popcorn.urls'
+ROOT_URLCONF = 'PVP.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'popcorn.wsgi.application'
+WSGI_APPLICATION = 'PVP.wsgi.application'
 
 
 # Database

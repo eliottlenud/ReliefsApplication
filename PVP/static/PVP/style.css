@@ -1,5 +1,6 @@
 body {
 	margin: 0px 0px 0px 0px;
+  background-image: url("/static/PVP/sallecine.jpg"); 
 }
 h1 {
 	text-align: center;
@@ -32,11 +33,10 @@ h1 {
 }
 
 .videoView {
-	position: relative;
+  position: relative;
   text-align: center;
   width: 840px;
-  margin-top: 50px;	
-  background-color: red;	
+  margin-top: 50px; 
 }
 
 .searchBar {
